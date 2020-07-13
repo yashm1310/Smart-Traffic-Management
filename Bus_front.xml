@@ -2,7 +2,7 @@
 <opencv_storage>
 <cascade>
   <stageType>BOOST</stageType>
-  <featureType>LBP</featureType>
+  <featureType>LBP</featureType> 
   <height>30</height>
   <width>30</width>
   <stageParams>
