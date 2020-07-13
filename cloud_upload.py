@@ -31,5 +31,5 @@ def cloud_upload():
 		return 1
 	except:
 		#For faileurs
-		return 0
+		return 0 
 
