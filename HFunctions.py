@@ -33,7 +33,7 @@ def get_countBackground(weight, capture, flip = False):
 		if road_mask is not None:
 			gray = cv2.bitwise_and(gray,road_mask)
 		if background is None:
-			background = gray.copy().astype('float')
+			background = gray.copy().astype('float') 
 			return None
 		#Computing the average
 		cv2.accumulateWeighted(gray,background,weight)
